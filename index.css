@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-plane {
+    font-size: 25px;
+    color: #1D1D1F;
+}
+
+.navbar-headings {
+    font-size: 11px;
+    margin: 0px;
+    margin-top: 0px;
+    color: #1D1D1F;
+}
+
+.nav-bar:hover {
+    background-image: linear-gradient(to left, #a445b2, #fa4299);
+    height: 2px;
+    cursor: pointer;
+}
+
+
+
+.content-projects {
+    background-color: #fff;
+    padding: 13px;
+}
+
+.project-head {
+    color: #1D1D1F;
+    font-size: 31px;
+    font-weight: 700;
+}
+
+.project-about {
+    color: #7a7b7e;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 8px;
+
+}
+
+.aftar {
+    height: 415px;
+    width: 850px;
+    border-color: #999999;
+    border-style: solid;
+    border-width: 6px;
+}
+
+.what-li {
+    width: 100%;
+    border-color: #999999;
+    margin-top: 50px;
+    margin-bottom: 22px;
+    border-width: 1px;
+}
+
+.project-image {
+    border-radius: 5px;
+}
+
+/* section snippets */
+.counter-heading {
+    font-size: 20px;
+    color: #252526;
+    font-weight: 600;
+}
+
+.counter-zero-big {
+    font-size: 90px;
+    background: -webkit-linear-gradient(left, #d669a3, #d89bc2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+
+.minus-symbol {
+    color: red;
+    font-size: 20px;
+}
+
+.plus-symbol {
+    color: green;
+    font-size: 20px;
+}
+
+.counter-zero {
+    font-size: 20px;
+}
+
+.i-number {
+    font-size: 4rem;
+    background: -webkit-linear-gradient(left, #fa4299, #ffb259, #ff4d5a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 200;
+    line-height: 1.4;
+}
+
+/* deliveryBox */
+.deliveryContainer {
+    background-image: linear-gradient(to right, #feffff, #fafefd, #eefdf8, #edfcf7, #e9fdf4, #e7fcf5, #e5fcf2);
+    background-size: cover;
+    border-radius: 13px;
+}
+
+.deliveryNew {
+    padding: 10px;
+}
+
+.deliveryPromo {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 10px;
+    color: #1aa675;
+    font-weight: 500;
+}
+
+.deliveryNonVegSymbol {
+    font-size: 10px;
+    color: #e03d4d;
+}
+
+.deliverItem {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.deliveryCustomize {
+    font-size: 10px;
+}
+
+.countContainerDelivery {
+    background-color: #ffffff;
+    height: 30px;
+    margin: 0px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: #e2e2e2;
+    border-width: 0.5px;
+}
+
+.deliverproduct {
+    padding: 7px;
+    width: 125px;
+}
+
+.deliveryMinus {
+    font-size: 10px;
+    color: #1aa675;
+}
+
+.deliveryPlus {
+    font-size: 10px;
+    color: #1aa675;
+}
+
+.hrLineDelivery {
+    width: 100%;
+    margin-top: 0px;
+    border-color: #1D1D1F;
+    border-width: 0.5px;
+}
+
+.deliveryInitialValue {
+    font-size: 20px;
+    color: #1aa675;
+}
+
+.deliveryRupeesLineThrough {
+    text-decoration: line-through;
+    font-size: 11px;
+}
+
+.deliveryFinalPrice {
+    font-size: 15px;
+}
+
+.deliveryContent {
+    background-color: #ffffff;
+    background-size: cover;
+    margin: 0px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+
+.deliveryPlusInstructions {
+    color: #343f4b;
+}
+
+.deliveryInstructions {
+    font-size: 14px;
+    border-style: none;
+    border-width: 0px;
+}
